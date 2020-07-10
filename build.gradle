@@ -32,8 +32,3 @@ application {
     // Define the main class for the application.
     mainClassName = 'gradle.init.test.App'
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '6.5.0'
-    distributionType = Wrapper.DistributionType.ALL
-}
